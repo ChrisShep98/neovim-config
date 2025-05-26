@@ -1,1 +1,2 @@
+require("chris")
 print("hello")
