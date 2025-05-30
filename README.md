@@ -8,3 +8,5 @@ Some scape commands/notes I want to remember:
 "a" when adding a new file/dir to neo-tree
 
 gg=G - formats entire file
+
+:wqa - write and quit all
