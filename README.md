@@ -10,3 +10,7 @@ Some scape commands/notes I want to remember:
 gg=G - formats entire file
 
 :wqa - write and quit all
+
+:h vim.lsp.buf - get info on lsp
+
+:q! - force quit without saving

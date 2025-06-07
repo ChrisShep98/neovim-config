@@ -16,7 +16,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 
-
 -- change color of strings
 --vim.api.nvim_create_autocmd("ColorScheme", {
 --  pattern = "*",
@@ -38,13 +37,14 @@ vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
 vim.cmd("set number")
 
+
+-- LSP keymaps, TODO: Move to LSP plugin file
+vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
+vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
+vim.keymap.set({'n', 'v'}, '<leader>ca', vim.lsp.buf.code_action, {})
 local opts = {}
 
 -- Setup lazy.nvim
 require("lazy").setup("plugins")
-
--- initalizing telescope below and setting keymaps (might move this to a new file in the future)
-
-
 
 
