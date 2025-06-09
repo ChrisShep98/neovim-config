@@ -14,3 +14,5 @@ gg=G - formats entire file
 :h vim.lsp.buf - get info on lsp
 
 :q! - force quit without saving
+
+"+y - copies all highlighted code to system clipboard
