@@ -15,10 +15,15 @@ neo-tree - tree structure for browsing directories
 
 lualine - statusline
 
-LSP
+comment - allows for easy commenting
+leader gc - in visual mode to comment multiple lines 
+
+LSP:
 mason-org/mason.nvim - Easily install and manage LSP servers, DAP servers, linters, and formatters
 mason-lspconfig.nvim - bridges mason.vim with lspconfig plugin - making it easier to use both plugins together 
 neovim/nvim-lspconfig - offical LSP nvim configuration
+
+Autocomplete:
 
 
 Some scape commands/notes I want to remember:
