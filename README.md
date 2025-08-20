@@ -16,6 +16,11 @@ neo-tree - tree structure for browsing directories
 lualine - statusline
 
 comment - allows for easy commenting
+^Basic mapping for comment:
+Normal mode: `ggc` - Toggles the current line using linewise comment
+Visual Mode: `gc` - Toggles the region using linewise comment
+Visual Mode: `gb` - Toggles the region using blockwise comment
+
 leader gc - in visual mode to comment multiple lines 
 
 autopairs - autoclose brackets, parens, quotes, etc 
@@ -51,3 +56,9 @@ gg=G - formats entire file (have a keymap leader gf for this)
 :q! - force quit without saving
 
 "+y - copies all highlighted code to system clipboard
+
+I - insert at beginning of line
+
+e - end of a word
+
+f - find. Example fs -> fines first string starting with s in the line then ; will find the next and so on. , -> will go backwards
