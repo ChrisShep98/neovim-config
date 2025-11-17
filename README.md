@@ -11,7 +11,7 @@ nvim-lua/plenary.nvim - useful lua functions and dependency of telescope, neo-tr
 
 none-ls - lets you integrate non LSP tools like formatters, linters, code action providers into nvims built-in LSP client
 
-neo-tree - tree structure for browsing directories
+neo-tree - tree structure for browsing directories (shortcut for focusing tree - <leader>n)
 
 lualine - statusline
 
