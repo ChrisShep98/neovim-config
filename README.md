@@ -49,6 +49,8 @@ to substitute all same strings in a doc cover cursor over word and press * then 
 
 gg=G - formats entire file (have a keymap leader gf for this)
 
+#G || :# - goes to the line number in the file (Example: 100G || :100)
+
 :wqa - write and quit all
 
 :h vim.lsp.buf - get info on lsp
