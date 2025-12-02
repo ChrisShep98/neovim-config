@@ -1,4 +1,4 @@
-Welcome to my vim config
+Welcome to my nvim config
 
 # Plugins:
 
@@ -7,16 +7,17 @@ vim-gitgutter - show git differences (added, removed, modified) in sign column
 treesitter - syntax highlighting
 
 telescope - fuzzy finder
+
 nvim-lua/plenary.nvim - useful lua functions and dependency of telescope, neo-tree
 
 none-ls - lets you integrate non LSP tools like formatters, linters, code action providers into nvims built-in LSP client
 
-neo-tree - tree structure for browsing directories (shortcut for focusing tree - <leader>n)
-some neo-tree commands 
-"a" when adding a new file/dir
-"d" deleting a file/dir
-"r" rename file/dir
-"m" move file/dir
+neo-tree - tree structure for browsing directories (shortcut for focusing tree - <leader>n)\
+some neo-tree commands:\ 
+"a" when adding a new file/dir\
+"d" deleting a file/dir\
+"r" rename file/dir\
+"m" move file/dir\
 :Ex - explore (gets you out of file and back to directory tree)
 
 lualine - statusline
