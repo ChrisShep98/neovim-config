@@ -150,7 +150,7 @@ dd - deletes a whole line (2dd deletes two lines etc, same as d# + enter)
 
 
 ## Misc
-gg=G - formats entire file (have a keymap leader gf for this)\
+gg=G - formats entire file (have a keymap leader gf for this for none-ls plugin)\
 :wqa - write and quit all\
 :h vim.lsp.buf - get info on lsp\
 :q! - force quit without saving\
