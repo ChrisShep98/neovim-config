@@ -6,9 +6,9 @@ return {
       "nvim-tree/nvim-web-devicons", -- OPTIONAL: for file icons
     },
     config = function()
-      vim.keymap.set("n", "<A-,>", "<Cmd>BufferPrevious<CR>", opts)
-      vim.keymap.set("n", "<A-.>", "<Cmd>BufferNext<CR>", opts)
-      vim.keymap.set("n", "<A-w>", "<Cmd>BufferClose<CR>", opts )
+      vim.keymap.set("n", "<A-Left>", "<Cmd>BufferPrevious<CR>")
+      vim.keymap.set("n", "<A-Right>", "<Cmd>BufferNext<CR>")
+      vim.keymap.set("n", "<A-Up>", "<Cmd>BufferClose<CR>")
     end,
   },
 }
