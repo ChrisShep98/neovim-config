@@ -1,5 +1,5 @@
 Welcome to my nvim config
-
+test
 # Plugins:
 
 vim-gitgutter - show git differences (added, removed, modified) in sign column
