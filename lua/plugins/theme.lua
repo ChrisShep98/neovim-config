@@ -1,7 +1,19 @@
 return {
   {
     "rebelot/kanagawa.nvim",
-    config = function ()
+    config = function()
+      require('kanagawa').setup({
+        overrides = function(colors)
+          local theme = colors.theme
+          return {
+            NeoTreeFileName = { fg = "#ffffff" },    -- File names
+            NeoTreeDirectoryName = { fg = "#ffffff" }, -- Directory names
+            NeoTreeGitModified = { fg = "#E6C384" },
+            LineNr = { bg = "#1F1F28" },
+            SignColumn = { bg = "#1F1F28" }
+          }
+        end,
+      })
       vim.cmd("colorscheme kanagawa-wave")
     end
   }
@@ -24,5 +36,4 @@ return {
   -- 		vim.cmd("colorscheme github_dark")
   -- 	end,
   -- },
-  -- 
 }
