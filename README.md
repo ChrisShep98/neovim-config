@@ -88,6 +88,7 @@ p - inserts previously deleted or yanked text after the cursor\
 ce - change until the end of the word\
 c$ - change rest of line after cursor\
 r - replace the character with something else
+C - removes everything to the right of your cursor and puts you in insert mode
 
 Substitute command:\
 Type `:s/old/new/g` to substitute "new" for "old".
@@ -111,6 +112,7 @@ y - copy highlighted text\
 yy - copy a line\
 shift v - highlights entire line\
 "+y - copies all highlighted code to system clipboard
+ctrl + v - visual block, lets you have multiple cursors so you can type the same thing in mutiple places. Example select the places you want to select then I -> characters you want to type -> Esc 
 
 
 ## Navigating related
@@ -156,4 +158,6 @@ gg=G - formats entire file (have a keymap leader gf for this for none-ls plugin)
 :q! - force quit without saving\
 :qa! - force quit all without saving\
 :!COMMAND - executes an external command (example :!ls)
+i - can also stand for inside. You can select all characters inside something (like a string) by taking vi" or whatever your trying to get inside (, {, etc). Other examples ci", di(, yi', etc
+. - redo your last action !!! very useful !!!
 
