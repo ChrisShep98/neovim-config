@@ -5,9 +5,18 @@ return {
     config = function()
       require('lualine').setup({
         options = {
-          theme = 'auto'
+          theme = 'auto',
+        },
+        sections = {
+          lualine_c = {
+            {
+              'filename',
+              path = 1,
+              shorting_target = 40,
+            }
+          }
         }
       })
-    end 
+    end
   }
 }
