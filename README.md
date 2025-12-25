@@ -14,11 +14,12 @@ none-ls - lets you integrate non LSP tools like formatters, linters, code action
 
 neo-tree - tree structure for browsing directories (shortcut for focusing tree - <leader>n)\
 some neo-tree commands:\
-"a" when adding a new file/dir\
-"d" deleting a file/dir\
-"r" rename file/dir\
-"m" move file/dir\
-:Ex - explore (gets you out of file and back to directory tree)
+a - when adding a new file/dir\
+d - deleting a file/dir\
+r - rename file/dir\
+m - move file/dir\
+z - close all directories
+:Ex - explore (gets you out of file and back to directory tree, same with <leader>n )
 
 lualine - statusline
 
