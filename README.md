@@ -161,4 +161,6 @@ gg=G - formats entire file (have a keymap leader gf for this for none-ls plugin)
 :!COMMAND - executes an external command (example :!ls)
 i - can also stand for inside. You can select all characters inside something (like a string) by taking vi" or whatever your trying to get inside (, {, etc). Other examples ci", di(, yi', etc
 . - redo your last action !!! very useful !!!
+:reg - will show you the register which are memory slots used to store text (yanked, deleted, or changed). You can paste them back in with " + 7 + p <- this will paste whatever is in the 7th register
+macros - stores actions and then can be replayed. Press q then a register you want to record it into then q to stop recording the macro. Example: qh ...q - then to replay the macro do @+register you recorded in so for this example @h. You can also append a number to it to repeat that macro x number of times. Example 5@h
 
