@@ -23,7 +23,8 @@ return {
             -- Semantic Token overrides
             ["@lsp.mod.readonly.typescriptreact"] = { fg = theme.fujiWhite },
             ["@lsp.mod.readonly.typescript"] = { fg = theme.fujiWhite },
-            ["@lsp.typemod.variable.global.lua"] = { fb = theme.fujiWhite },
+            ["@lsp.typemod.variable.global.lua"] = { fg = theme.fujiWhite },
+            ["@lsp.typemod.variable.defaultLibrary.typescript"] = { fg = theme.fujiWhite },
             -- UI overrides
             NeoTreeFileName = { fg = "#ffffff" },      -- File names
             NeoTreeDirectoryName = { fg = "#ffffff" }, -- Directory names
