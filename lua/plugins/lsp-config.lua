@@ -28,7 +28,8 @@ return {
     config = function()
       local capabilities = require('cmp_nvim_lsp').default_capabilities() -- not working?
       -- Lowers lsp semantic_tokens priority so it doesn't override treesitter
-      vim.highlight.priorities.semantic_tokens = 95
+      -- vim.highlight.priorities.semantic_tokens = 95
+      
       -- These have default configutation since they're not being configured
       vim.lsp.config('lua_ls', { capabilities = capabilities })
       vim.lsp.config('ts_ls', { capabilities = capabilities })
