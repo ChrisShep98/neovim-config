@@ -25,7 +25,7 @@ lualine - statusline
 
 comment - allows for easy commenting\
 ^Basic mapping for comment:\
-Normal mode: `ggc` - Toggles the current line using linewise comment\
+Normal mode: `gcc` - Toggles the current line using linewise comment\
 Visual Mode: `gc` - Toggles the region using linewise comment\
 Visual Mode: `gb` - Toggles the region using blockwise comment
 
