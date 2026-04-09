@@ -14,10 +14,10 @@ return {
             ["@type.builtin.tsx"] = { fg = "#7aa89f" },
             ["@type.builtin.typescript"] = { fg = "#7aa89f" },
             ["@type.typescript"] = { fb = theme.fujiWhite },
-            ["@tag.builtin.tsx"] = { fg = "#edc17b" },
+            ["@tag.builtin.tsx"] = { fg = "#E6C384" }, -- theme.carpYellow
             ["@tag.attribute"] = { fg = "#997ebc" },
             ["@tag.tsx"] = { fg = "#7aa89f" },
-            ["@tag.html"] = { fg = "#edc17b" },
+            ["@tag.html"] = { fg = "#E6C384" }, -- theme.carpYellow
             ["@constant.builtin.typescript"] = { fg = "#7aa89f" },
             ["@constant.builtin.tsx"] = { fg = "#7aa89f" },
             ["@constant.typescript"] = { fg = theme.fujiWhite },
