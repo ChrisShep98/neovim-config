@@ -17,6 +17,7 @@ return {
             ["@tag.builtin.tsx"] = { fg = "#edc17b" },
             ["@tag.attribute"] = { fg = "#997ebc" },
             ["@tag.tsx"] = { fg = "#7aa89f" },
+            ["@tag.html"] = { fg = "#edc17b" },
             ["@constant.builtin.typescript"] = { fg = "#7aa89f" },
             ["@constant.builtin.tsx"] = { fg = "#7aa89f" },
             ["@constant.typescript"] = { fg = theme.fujiWhite },
@@ -25,6 +26,7 @@ return {
             ["@lsp.mod.readonly.typescript"] = { fg = theme.fujiWhite },
             ["@lsp.typemod.variable.global.lua"] = { fg = theme.fujiWhite },
             ["@lsp.typemod.variable.defaultLibrary.typescript"] = { fg = theme.fujiWhite },
+            ["@lsp.typemod.variable.defaultLibrary.typescriptreact"] = { fg = theme.waveRed },
             -- UI overrides
             NeoTreeFileName = { fg = "#ffffff" },      -- File names
             NeoTreeDirectoryName = { fg = "#ffffff" }, -- Directory names
