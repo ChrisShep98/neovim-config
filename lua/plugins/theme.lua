@@ -25,6 +25,7 @@ return {
             ["@lsp.mod.readonly.typescriptreact"] = { fg = theme.fujiWhite },
             ["@lsp.mod.readonly.typescript"] = { fg = theme.fujiWhite },
             ["@lsp.typemod.variable.global.lua"] = { fg = theme.fujiWhite },
+            ["@lsp.mod.readonly.javascript"] = { fg = theme.fujiWhite },
             ["@lsp.typemod.variable.defaultLibrary.typescript"] = { fg = theme.fujiWhite },
             ["@lsp.typemod.variable.defaultLibrary.typescriptreact"] = { fg = theme.waveRed },
             ["@lsp.typemod.variable.defaultLibrary.javascript"] = { fg = theme.waveRed },
