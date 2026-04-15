@@ -21,6 +21,7 @@ return {
             ["@constant.builtin.typescript"] = { fg = "#7aa89f" },
             ["@constant.builtin.tsx"] = { fg = "#7aa89f" },
             ["@constant.typescript"] = { fg = theme.fujiWhite },
+            ["@punctuation.special.tsx"] = { fg = "#9CABCA" },
             -- Semantic Token overrides
             ["@lsp.mod.readonly.typescriptreact"] = { fg = theme.fujiWhite },
             ["@lsp.mod.readonly.typescript"] = { fg = theme.fujiWhite },
