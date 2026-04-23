@@ -50,7 +50,7 @@ return {
       --   capabilities = capabilities
       -- })
 
-      vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
+      vim.keymap.set("n", "<C-Space>", vim.lsp.buf.hover, { desc = "LSP hover" })
       vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
       vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
       vim.keymap.set({ "n", "v" }, "<leader>re", vim.lsp.buf.rename, { desc = "rename a word globally" })
